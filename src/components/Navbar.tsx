@@ -1,5 +1,3 @@
-
-
 import { useEffect } from "react";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 import HoverLinks from "./HoverLinks";
@@ -33,12 +31,12 @@ const Navbar = () => {
     <>
       <div className="header">
         
-        {/* 🔥 LOGO CHANGE */}
+        
         <a href="/#" className="navbar-title">
           <b><b>Ashu</b></b>
         </a>
 
-        {/* 🔥 EMAIL CHANGE (ya hata sakta hai) */}
+       
         <a href="mailto:ashu282507@gmail.com" className="navbar-connect">
           ashu282507@gmail.com
         </a>

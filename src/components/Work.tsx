@@ -110,7 +110,7 @@ const Work = () => {
                   </div>
                 </div>
 
-                {/* 🔥 NEW DESCRIPTION */}
+                
                 <p className="work-desc">{project.desc}</p>
 
                 <h4>Tools & Features</h4>

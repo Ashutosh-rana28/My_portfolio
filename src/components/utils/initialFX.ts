@@ -1,7 +1,7 @@
 import gsap from "gsap";
 
 export function initialFX() {
-  // enable scroll
+  
   document.body.style.overflowY = "auto";
 
   const main = document.getElementsByTagName("main")[0];
@@ -9,14 +9,14 @@ export function initialFX() {
     main.classList.add("main-active");
   }
 
-  // background fade
+  
   gsap.to("body", {
     backgroundColor: "#0b080c",
     duration: 0.5,
     delay: 0.3,
   });
 
-  // heading animation
+ 
   gsap.fromTo(
     [".landing-info h3", ".landing-intro h2", ".landing-intro h1"],
     { opacity: 0, y: 60 },
@@ -30,7 +30,7 @@ export function initialFX() {
     }
   );
 
-  // sub heading
+ 
   gsap.fromTo(
     ".landing-info-h2",
     { opacity: 0, y: 30 },
@@ -43,7 +43,7 @@ export function initialFX() {
     }
   );
 
-  // navbar + icons fade
+  
   gsap.fromTo(
     [".header", ".icons-section", ".nav-fade"],
     { opacity: 0 },
